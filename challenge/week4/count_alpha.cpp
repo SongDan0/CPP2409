@@ -11,7 +11,7 @@ int main(){
     //자음, 모음 카운터
     while(cin >> ch){
         //소문자일 경우
-        if(ch >= 'A' || ch <= 'Z'){
+        if(ch >= 'a' || ch <= 'z'){
             //자음, 모음 구분하여 vowel, consonant값 증가
             switch(ch){
                 case 'a':
