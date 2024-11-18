@@ -88,9 +88,11 @@ int main() {
 		else if (user_input == "지도") {
 			// TODO: 지도 보여주기 함수 호출
 			displayMap(map, user_x, user_y);
+			continue;
 		}
 		else if (user_input == "정보") {
 			cout << user << endl;
+			continue;
 		}
 		else if (user_input == "종료") {
 			cout << "종료합니다.";
