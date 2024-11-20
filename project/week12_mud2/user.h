@@ -11,10 +11,10 @@ public:
     User();                             // 생성자(변수 초기화)
     void DecreaseHP(int dec_hp);        // hp 감소
     void IncreaseHP(int inc_hp);        // hp 증가
-    int GetHP();                        // hp 변수 반환               
+    int GetHP();                        // hp 변수 반환
+    void IncreaseItemCnt();   // 아이템 획득 횟수 1증가               
     void DoAttack();                    // 공격 문구 출력
     friend ostream& operator<<(ostream& os, const User& user);  // user 객체 출력 시 << 재정의
-    friend void IncreaseItemCnt(User& user);    // 아이템 획득 횟수 1증가
 };
 
 //직업
